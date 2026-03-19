@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="100" fill="#0a0e0d"/>
+  <rect width="512" height="512" rx="100" fill="url(#g)"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1f17"/>
+      <stop offset="100%" stop-color="#0a0e0d"/>
+    </linearGradient>
+  </defs>
+  <!-- Bowl -->
+  <ellipse cx="256" cy="290" rx="140" ry="50" fill="#3ecf8e" opacity="0.15"/>
+  <path d="M116 260 Q116 380 256 380 Q396 380 396 260 Z" fill="#0d2b1f" stroke="#3ecf8e" stroke-width="6"/>
+  <!-- Steam lines -->
+  <path d="M200 220 Q210 200 200 180" stroke="#3ecf8e" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M256 210 Q266 190 256 170" stroke="#3ecf8e" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M312 220 Q322 200 312 180" stroke="#3ecf8e" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <!-- Bowl rim -->
+  <ellipse cx="256" cy="260" rx="140" ry="22" fill="none" stroke="#3ecf8e" stroke-width="6"/>
+  <!-- Food dots in bowl -->
+  <circle cx="220" cy="300" r="12" fill="#3ecf8e" opacity="0.8"/>
+  <circle cx="256" cy="310" r="14" fill="#3ecf8e" opacity="0.9"/>
+  <circle cx="292" cy="300" r="12" fill="#3ecf8e" opacity="0.8"/>
+  <circle cx="238" cy="330" r="10" fill="#3ecf8e" opacity="0.6"/>
+  <circle cx="274" cy="332" r="10" fill="#3ecf8e" opacity="0.6"/>
+  <!-- Checkmark badge -->
+  <circle cx="380" cy="140" r="55" fill="#0a0e0d"/>
+  <circle cx="380" cy="140" r="48" fill="#3ecf8e"/>
+  <path d="M358 140 L374 156 L404 122" stroke="#0a0e0d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
