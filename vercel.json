@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd diet-pwa && npm install && npm run build",
+  "outputDirectory": "diet-pwa/dist",
+  "installCommand": "cd diet-pwa && npm install",
+  "framework": null
+}
